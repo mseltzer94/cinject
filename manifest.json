@@ -1,0 +1,12 @@
+{
+  "name": "Chrome to Mobile",
+  "description": "Send web pages from Chrome on your computer to Chrome on your phone or tablet.",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["replace.js"]
+    }
+  ],   
+  "manifest_version": 2
+}
